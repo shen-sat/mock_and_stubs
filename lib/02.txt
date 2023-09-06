@@ -1,0 +1,12 @@
+There are two types of problem:
+- Risk: we end up moving real money (yikes!)
+- Dependency:
+	- if we only use staging, what if staging is down?
+	- what if staging is slow?
+
+
+To stretch the stunt double analogy:
+- risk: we injure our actor
+- dependency: what if the actor is busy? Or ill?
+
+** This is exactly where test doubles come in! **
