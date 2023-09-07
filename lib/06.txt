@@ -1,0 +1,8 @@
+The test double we just wrote is called a 'stub'.
+
+Stubs allow us to swap out real objects with dummy objects (with behaviour that we define)
+
+You'll use them when you need a value returned from a real object
+
+
+Now imagine we add some more functionality...(see diagram)

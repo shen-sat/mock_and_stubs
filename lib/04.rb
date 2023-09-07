@@ -1,3 +1,4 @@
+# what happens if I make a mistake with the double..?
 class Drawdown
 	def self.call(id, amount, bank_api)
 		response = bank_api.call(id, amount)

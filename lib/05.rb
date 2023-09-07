@@ -17,7 +17,8 @@ end
 
 RSpec.describe Drawdown do
 	it 'happy path' do
-		bank_api = double('bank api', call: { status_code: 200 })
+		# instance doubles to the rescue!
+		bank_api = instance_double(BankApi, run: { status_code: 200 })
 
 		result = Drawdown.call(1111, 10_000, bank_api)
 		
