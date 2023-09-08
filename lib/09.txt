@@ -1,0 +1,8 @@
+The test double we just wrote is aka a 'mock'.
+
+Mocks allow us to swap out real objects with dummy objects and verify behaviour.
+Note - this is different to a stub where we we swap out real objects with dummy objects with behaviour that we define.
+
+You'll use them when you need test that a certain behaviour happened.
+
+"Mocks are what we are talking about here: objects pre-programmed with expectations which form a specification of the calls they are expected to receive."

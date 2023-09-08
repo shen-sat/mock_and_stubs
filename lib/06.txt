@@ -1,8 +1,11 @@
-The test double we just wrote is called a 'stub'.
+The test double we just wrote is aka a 'stub'.
 
-Stubs allow us to swap out real objects with dummy objects (with behaviour that we define)
+Stubs allow us to swap out real objects with dummy objects with behaviour that we define.
 
-You'll use them when you need a value returned from a real object
+You'll use them when you need a return value in your test.
 
+"Stubs provide canned answers to calls made during the test, usually not responding at all to anything outside what's programmed in for the test."
+
+---
 
 Now imagine we add some more functionality...(see diagram)
