@@ -10,9 +10,9 @@ end
 
 class BankApi
 	def call(id, amount)
-		puts "Makes a call to Barclays to move money"
+		puts "Calls Barclays and moves money"
 		# BarclaysClient.make_drawdown(id, amount)
-		# is successful, this word return a ststus code 200, else 4XX or 5XX
+		# if successful, this would return a status code 200, else 4XX or 5XX
 	end
 end
 
